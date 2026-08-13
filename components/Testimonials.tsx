@@ -26,7 +26,7 @@ export default function Testimonials() {
         <h2 className="text-3xl md:text-4xl font-heading text-brand-text">What Austin homeowners say after the work is done</h2>
 
         <div className="mt-10 lg:mt-14 grid lg:grid-cols-3 gap-10 items-start">
-          <div className="order-2 lg:order-1 lg:col-span-2 grid sm:grid-cols-2 gap-8">
+          <div className="order-2 lg:order-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
             {quotes.map((q) => (
               <div key={q.name} className="border-t border-brand-text/10 pt-6">
                 <p className="text-brand-text/90 leading-relaxed max-w-prose">"{q.text}"</p>
