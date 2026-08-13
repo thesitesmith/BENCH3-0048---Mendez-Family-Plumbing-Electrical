@@ -3,11 +3,11 @@ import Image from 'next/image'
 const quotes = [
   {
     text: `Miguel clearly explained the plumbing issue and what needed to be done to get our kitchen sink and drain working again in about an hour.`,
-    name: `Aurora`,
+    name: `Denise`,
   },
   {
     text: `They cleaned up carefully after every visit and left the work area in excellent shape. I really appreciate the quality of the workmanship and the honest communication.`,
-    name: `Tracey`,
+    name: `Carla`,
   },
   {
     text: `They removed everything from the bathroom, updated all the plumbing, and put in a brand new bathroom. Every day we were welcomed by friendly plumbers.`,
