@@ -30,7 +30,7 @@ export default function FeatureSection() {
             Call Us
           </a>
           <p className="text-brand-background/80 leading-relaxed max-w-sm">
-            Prices are confirmed before any work starts, so there is no surprise when the job is done.
+            Shut-off valves and connections are checked at the same time, and any parts that need replacing are pointed out before the visit ends.
           </p>
         </div>
       </div>
