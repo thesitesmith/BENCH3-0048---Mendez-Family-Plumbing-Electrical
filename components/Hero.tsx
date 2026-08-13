@@ -23,14 +23,6 @@ export default function Hero() {
             Drain lines, water heaters, and repiping work for Austin homes, handled by the same two technicians every time.
           </p>
 
-          <div className="mt-8 relative inline-block pl-4">
-            <span className="absolute left-0 top-0 bottom-0 w-[2px] bg-brand-accent"></span>
-            <span className="absolute left-0 bottom-0 h-[2px] w-8 bg-brand-accent"></span>
-            <a href="tel:+15128130488" className="block text-2xl font-heading text-brand-background tracking-tight">
-              (512) 813-0488
-            </a>
-          </div>
-
           <div className="mt-8">
             <a
               href="tel:+15128130488"
