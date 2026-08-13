@@ -26,7 +26,16 @@ export default function Testimonials() {
         <h2 className="text-3xl md:text-4xl font-heading text-brand-text">What Austin homeowners say after the work is done</h2>
 
         <div className="mt-10 lg:mt-14 grid lg:grid-cols-3 gap-10 items-start">
-          <div className="relative overflow-hidden aspect-[3/4] w-full max-w-[653px] mx-auto lg:mx-0 h-full min-h-[420px] lg:col-span-1">
+          <div className="order-2 lg:order-1 lg:col-span-2 grid sm:grid-cols-2 gap-8">
+            {quotes.map((q) => (
+              <div key={q.name} className="border-t border-brand-text/10 pt-6">
+                <p className="text-brand-text/90 leading-relaxed max-w-prose">"{q.text}"</p>
+                <p className="mt-4 text-xs uppercase tracking-widest text-brand-text/60">{q.name}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="order-1 lg:order-2 relative overflow-hidden aspect-[3/4] w-full max-w-[653px] mx-auto lg:mx-0 h-full min-h-[420px] lg:col-span-1">
             <Image
               src="/images/gallery-2.jpg"
               alt="Close-up of finished plumbing fixture work by Mendez Family Plumbing & Electrical"
@@ -34,15 +43,6 @@ export default function Testimonials() {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-cover object-top saturate-[.95] contrast-[1.03]"
             />
-          </div>
-
-          <div className="lg:col-span-2 grid sm:grid-cols-2 gap-8">
-            {quotes.map((q) => (
-              <div key={q.name} className="border-t border-brand-text/10 pt-6">
-                <p className="text-brand-text/90 leading-relaxed max-w-prose">"{q.text}"</p>
-                <p className="mt-4 text-xs uppercase tracking-widest text-brand-text/60">{q.name}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
